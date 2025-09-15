@@ -13,8 +13,8 @@ venv/
 # VSCode
 .vscode
 
-# Cache e Dataset
-dataset/
+# Cache e Datasets
+datasets/
 
 # Modelos Salvos
 model/

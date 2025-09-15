@@ -3,6 +3,7 @@
 ## Dependências
 
 ```
+pip install python-dotenv
 pip install -U transformers==4.40.2
 pip install -U datasets 
 pip install -U evaluate
@@ -11,7 +12,6 @@ pip install -U networkx
 pip install -U matplotlib
 pip install -U Cython
 pip install -U accelerate
-pip install -U torch
 ```
 
 ## Reparar erro do Graphormer
