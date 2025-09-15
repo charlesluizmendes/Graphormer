@@ -12,6 +12,7 @@ pip install -U networkx
 pip install -U matplotlib
 pip install -U Cython
 pip install -U accelerate
+pip install torch --index-url https://download.pytorch.org/whl/cu121 # Versão de CUDA 12.6
 ```
 
 ## Reparar erro do Graphormer
