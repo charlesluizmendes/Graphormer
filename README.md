@@ -23,13 +23,17 @@ Abrir o Arquivo:
 
 Onde tem:
 
-    path_copy = path.astype(long, order='C', casting='safe', copy=True)
-    edge_feat_copy = edge_feat.astype(long, order='C', casting='safe', copy=True)
+```
+path_copy = path.astype(long, order='C', casting='safe', copy=True)
+edge_feat_copy = edge_feat.astype(long, order='C', casting='safe', copy=True)
+```
 
 Substituir por:
 
-    path_copy = path.astype(np.int64, order='C', casting='safe', copy=True)
-   	edge_feat_copy = edge_feat.astype(np.int64, order='C', casting='safe', copy=True)
+```
+path_copy = path.astype(np.int64, order='C', casting='safe', copy=True)
+edge_feat_copy = edge_feat.astype(np.int64, order='C', casting='safe', copy=True)
+```
 
 Limpar Cache:
 
