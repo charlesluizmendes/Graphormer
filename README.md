@@ -3,7 +3,7 @@
 ## Dependências
 
 ```
-pip install python-dotenv
+pip install -U python-dotenv
 pip install -U transformers==4.40.2
 pip install -U datasets 
 pip install -U evaluate
